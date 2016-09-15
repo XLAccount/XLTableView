@@ -117,7 +117,7 @@
 - (void)setupHeaderView
 {
     
-    XLWaveView *wave = [[XLWaveView alloc] initWithFrame:CGRectMake(0, -60, XLScreenW, 270) Image:@"Cyuri03" centerIcon:@"icon"];
+    XLWaveView *wave = [[XLWaveView alloc] initWithFrame:CGRectMake(0, 0, XLScreenW, 270) Image:@"Cyuri03" centerIcon:@"icon"];
     self.waveView = wave;
     [self scrollViewDidScroll:self.tableView];
  
